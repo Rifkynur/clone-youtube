@@ -40,6 +40,7 @@ const PlayVideo = () => {
   }, [videoId]);
 
   useEffect(() => {
+    document.title = apiData?.snippet?.title;
     fetchChannelData();
     fetchCommentsData();
   }, [apiData]);

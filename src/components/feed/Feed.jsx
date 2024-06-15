@@ -16,6 +16,7 @@ const Feed = ({ category }) => {
   useEffect(() => {
     fetchApi();
     toTopScroll();
+    document.title = "Home";
   }, [category]);
   return (
     <div className="feed">

@@ -20,7 +20,6 @@ const Recommended = ({ categoryId }) => {
     fetchData();
   }, [videoId]);
 
-  console.log(apiData);
   return (
     <div className="recommended">
       {apiData.map((item, index) => {
