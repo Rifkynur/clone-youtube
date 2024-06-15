@@ -1,0 +1,37 @@
+.recommended {
+  flex-basis: 30%;
+}
+.side-video-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.side-video-list img {
+  flex-basis: 49%;
+  width: 50%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.vid-info {
+  flex-basis: 49%;
+}
+.vid-info h4 {
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+@media (max-width: 960px) {
+  .recommended {
+    flex-basis: 100%;
+  }
+  .side-video-list img {
+    height: 160px;
+  }
+}
+@media (max-width: 450px) {
+  .side-video-list img {
+    height: 100px;
+  }
+}

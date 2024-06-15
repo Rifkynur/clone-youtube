@@ -1,0 +1,15 @@
+.container {
+  background-color: #f9f9f9;
+  padding-left: 17%;
+  padding-right: 2%;
+  padding-block: 20px;
+}
+.large-container {
+  padding-left: 7%;
+}
+@media (max-width: 960px) {
+  .large-container,
+  .container {
+    padding-inline: 5%;
+  }
+}
